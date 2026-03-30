@@ -6,10 +6,16 @@ const sequelize = new Sequelize({
 });
 
 const Feedback = sequelize.define('Feedback', {
-  message: DataTypes.STRING,
-  rating: DataTypes.INTEGER
+  message: {
+    type: DataTypes.STRING,
+    allowNull: false
+  },
+  rating: {
+    type: DataTypes.INTEGER,
+    allowNull: false
+  }
 });
 
 sequelize.sync();
 
-module.exports = Feedback;
+module.exports = { Feedback, sequelize };
