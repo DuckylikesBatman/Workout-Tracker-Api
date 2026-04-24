@@ -1,0 +1,27 @@
+{
+  "name": "project-web-api",
+  "version": "1.0.0",
+  "description": "A RESTful API built with **Node.js** and **Express.js** to manage **users**, **workouts**, **exercises**, and **feedback**.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duckylikesbatman/workout-tracker-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/duckylikesbatman/workout-tracker-api/issues"
+  },
+  "homepage": "https://github.com/duckylikesbatman/workout-tracker-api#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.5.0",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  }
+}
